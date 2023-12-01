@@ -8,7 +8,7 @@ In `practice.js`, write a function that accepts the array of objects as input an
 ---
 #### Hints & Clarifications
 - time = distance / velocity
-- It could be useful to write a helper function just to handle the calculation of time for a single train.
+- It could be useful to write a helper function just to handle the calculation of averaging numbers.
 
 ---
 #### Test Data
@@ -19,7 +19,7 @@ In `practice.js`, write a function that accepts the array of objects as input an
 ---
 #### Expected Result
 ```
-6.25416
+6.254166666666666
 ```
 
 ---
