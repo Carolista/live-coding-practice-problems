@@ -1,8 +1,13 @@
-/* 
-  Solution 1
+/*
+  Set test data
 */
 
 let testStr = "St. Louis, Kansas City, and Philadelphia";
+
+
+/* 
+  Solution 1
+*/
 
 function countCharacters(str) {
   let counts = {};

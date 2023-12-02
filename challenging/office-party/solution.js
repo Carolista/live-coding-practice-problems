@@ -1,5 +1,5 @@
-/* 
-  Set up test data
+/*
+  Set test data
 */
 
 let testParties1 = [

@@ -1,5 +1,5 @@
-/* 
-  Solution 1
+/*
+  Set test data
 */
 
 let testTrains = [
@@ -16,6 +16,11 @@ let testTrains = [
     distance: 162
   }
 ];
+
+
+/* 
+  Solution 1
+*/
 
 function avgTrainTravelTime(trains) {
   let times = [];

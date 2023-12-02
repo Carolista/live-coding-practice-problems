@@ -25,7 +25,10 @@
 				otherwise print "ok"
 */
 
-// TEST DATA
+/*
+  Set test data
+*/
+
 let attendanceRecords = ["PPLPAPLLP", "PPLPAPLAA", "PLAPLPAPP", "PPPAPPLLL", "LPPPPLPPP"];
 
 /* 

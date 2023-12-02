@@ -1,10 +1,15 @@
-/* 
-  Solution 1
+/*
+  Set test data
 */
 
 let testNums1 = [3, -1, 9, 2, -4, 7, 3, 6, 1, 5];
 let testNums2 = [1, 9];
 let testNums3 = [1, 2, 2, 3];
+
+
+/* 
+  Solution 1
+*/
 
 function hasDuplicates(numArr) {
   let found = [];

@@ -1,5 +1,5 @@
-/* 
-  Solution
+/*
+  Set test data
 */
 
 let testStr1 = "aaa";
@@ -7,6 +7,11 @@ let testStr2 = "a";
 let testStr3 = "bdsagbgagggaaatttyyyyau";
 let testStr4 = "abcdefghijklmnopqrstuvwxyz";
 let testStr5 = "";
+
+
+/* 
+  Solution
+*/
 
 function findLongestRepeat(str) {
   let longest = 1;

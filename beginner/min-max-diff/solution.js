@@ -1,8 +1,13 @@
-/* 
-  Solution 1
+/*
+  Set test data
 */
 
 let testNums = [15, -10, 22, 84, 14, 88, -3, 23];
+
+
+/* 
+  Solution 1
+*/
 
 function findMinMaxDiff(numArr) {
   let min = numArr[0];

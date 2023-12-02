@@ -1,10 +1,15 @@
-/* 
-  Solution 1
+/*
+  Set test data
 */
 
 let testNums1 = [3, -1, 9, 2, -4, 7, 6, 1, 5];
 let testNums2 = [1];
 let testNums3 = [-62, -79, -44, -22, -88];
+
+
+/* 
+  Solution 1
+*/
 
 function findHighestNum(numArr) {
   let highestNumIndex = 0;
@@ -22,7 +27,7 @@ console.log(findHighestNum(testNums3));
 
 
 /* 
-  Solution 2
+  Solution 2 - Alt approach of tracking number instead of its index
 */
 
 function findHighestNum2(numArr) {

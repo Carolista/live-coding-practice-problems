@@ -1,8 +1,13 @@
-/* 
-  Solution 1
+/*
+  Set test data
 */
 
 let jenny = "j02en8 9nys-n1u m80b e3r!";
+
+
+/* 
+  Solution 1
+*/
 
 let digits = "";
 for (let i = 1; i < jenny.length; i++) {

@@ -1,8 +1,13 @@
-/* 
-  Solution 1
+/*
+  Set test data
 */
 
 let testNums = [38, 29, 15, 59, 84, 43, 70, 2];
+
+
+/* 
+  Solution 1
+*/
 
 function checkCloseness(numArr) {
   for (let i = 0; i < numArr.length; i++) {

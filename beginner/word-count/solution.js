@@ -1,11 +1,16 @@
-/* 
-  Solution 1 (this is clunky but it works)
+/*
+  Set test data
 */
 
 let testPhrase1 = "One giant leap for mankind";
 let testPhrase2 = "a";
 let testPhrase3 = "";
 let testPhrase4 = "   ";
+
+
+/* 
+  Solution 1 (this is a little clunky but it works)
+*/
 
 function countWords(phrase) {
   if (phrase.length === 0) {
