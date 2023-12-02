@@ -6,6 +6,7 @@ Write a function that accepts an array of integers as input. It should return an
 ---
 #### Hints and Clarifications
 - Some numbers may be negative.
+- Assume the array will always hold at least one number.
 
 ---
 #### Test Data
