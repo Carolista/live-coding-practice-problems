@@ -45,13 +45,13 @@ Make your algorithm case-insensitive.
 ```
 {
   s: 4,
-  t: 1,
+  t: 2,
   ".": 1,
-  " ": 4,
+  " ": 5,
   l: 3,
   o: 1,
   u: 1,
-  i: 3,
+  i: 4,
   ",": 2,
   k: 1,
   a: 5,
