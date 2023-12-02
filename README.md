@@ -1,17 +1,53 @@
 # Live Coding Practice Problems
 #### by Carrie Jones
 
-A collection of practice problems for students/graduates preparing for their first rounds of technical interviews. It is recommended to put in a few hours every week for several weeks ahead of any mock interviews or real interviews.
+[Navigating the Files](#navigating-the-practice-problem-files) |
+[Updating Your Forked Repo](#updating-your-forked-repository-with-my-changes) | 
+[Practicing Live Coding](#practicing-the-live-coding-process) |
+[Most Important](#most-important)
 
+This collection of practice problems is intended for students/graduates preparing for their first rounds of technical interviews. It is recommended to put in a few hours of practice every week for several weeks ahead of any mock interviews or real interviews. You can also pair with peers to "interview" one another and get more comfortable with having a conversation throughout the process.
 
-## Navigating This Repository
+## Navigating the Practice Problem Files
 In each subdirectory you will generally find three files:
  - `practice.js` - code this in the `main` branch
  - `prompt.md` - read if practicing solo, or have a peer prompt you if practicing with others
  - `solution.js` - view this in the `solution` branch _after_ you've solved it your own way
 
+## Updating Your Forked Repository with My Changes
+From time to time I will add or change content in this repository. If you forked and cloned this repo, you will need to pull in my changes. 
 
-## The Live Coding Process
+### Step 1 - Set an upstream link to my repository
+If you run `git remote -v` and you see only your `origin` remote repo, run the following command:
+```
+git remote add upstream https://github.com/Carolista/live-coding-practice-problems
+```
+You can confirm with `git remote -v` and you should see the `upstream` repo listed.
+
+### Step 2 - Fetch from upstream
+Run `git fetch upstream` to ensure your local repository has updated knowledge of what changes I have made to my original repo.
+
+### Step 3 - Pull & merge the `main` branch
+First, if you are not in the `main` branch, use `git checkout main` to switch. Then run the following command:
+```
+git merge upstream/main
+```
+You should now have my changes incorporated into yours. Push your newly merged version of `main` to your own remote repository:
+```
+git push
+``` 
+
+### Step 4 - Pull & merge the `solution` branch
+Use `git checkout solution` to switch branches again. Then run the following command:
+```
+git merge upstream/solution
+```
+Push your newly merged version of `solution` to your own remote repository:
+```
+git push
+```
+
+## Practicing the Live Coding Process
 
 ### Understand the requirements
 1. Have someone read you the prompt (or read it yourself if practicing solo).
