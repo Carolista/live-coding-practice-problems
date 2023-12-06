@@ -1,7 +1,4 @@
-## Duplicate Elements
-
-#### Instructions to Interviewee
-Write a function that accepts an array of integers as input. Return true ## Close, But Not Quite
+## Close, But Not Quite
 
 #### Instructions to Interviewee
 Write a function that accepts an array of positive integers as input. For each number, print `"(num) is SO CLOSE!"` or `"(num) is not close."` depending on whether the number is within 1 of a multiple of 7.
