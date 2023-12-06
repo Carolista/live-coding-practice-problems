@@ -1,4 +1,26 @@
 /*
+  Notes & clarifications
+
+  Function - array of integers as input (negative or positive)
+  Find highest number 
+  Return its INDEX
+
+  Array will never be empty
+*/
+
+
+/*
+  Pseudocode
+
+  Create variable to store highest index and initialize to index 0
+  Loop through array starting at index 1
+    Compare num at index i to num at highest index stored
+    If num at i is higher, change value of highest index to i
+  Return highest index
+*/
+
+
+/*
   Set test data
 */
 

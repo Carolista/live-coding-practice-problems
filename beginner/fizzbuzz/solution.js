@@ -1,3 +1,28 @@
+/*
+  Notes & clarifications
+
+  Function should accept integer as input
+  No return value, just print
+  For 1 to n, just print number unless: 
+  - divis. by 3, "fizz"
+  - divis. by 5, "buzz"
+  - divis by both, "fizzbuzz"
+
+  could use modulo operator to check divisibility
+*/
+
+
+/*
+  Pseudocode
+
+  loop from 1 to num
+    if divis by 15, "fizzbuzz"
+    else if divis by 3, "fizz"
+    else if divis by 5, "buzz"
+    else print num
+*/
+
+
 /* 
   Solution 1
 */
@@ -44,7 +69,7 @@ function fizzBuzz2(num) {
 
 
 /*
-  Solution 3 - More concise, modern syntax
+  Solution 3 - Same approach as solution 2 but more concise, modern syntax
 */ 
 
 function fizzbuzz3(num) {

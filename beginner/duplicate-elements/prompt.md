@@ -1,7 +1,7 @@
 ## Duplicate Elements
 
 #### Instructions to Interviewee
-Write a function that accepts an array of integers as input. Return true or false depending on whether the array contains a duplicate element or not.
+Write a function that accepts an array of integers as input. Return a boolean `true` or `false` depending on whether the array contains a duplicate element or not.
 
 ---
 #### Hints and Clarifications

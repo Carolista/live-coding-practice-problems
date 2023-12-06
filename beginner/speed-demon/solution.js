@@ -1,3 +1,13 @@
+/*
+  Notes & clarifications
+*/
+
+
+/*
+  Pseudocode
+*/
+
+
 /* 
   Solution 1
 */

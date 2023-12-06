@@ -1,4 +1,29 @@
 /*
+  Notes & clarifications
+
+  Function - accept array of integers as input (neg or positive)
+  Check if array has duplicate elements (anywhere)
+  Return boolean true or false 
+  
+  Will always be at least 2 elements
+
+  Could track which elements have already been found while looping through
+  Do an early return of false if one has already been found
+*/
+
+
+/*
+  Pseudocode
+
+  create empty array
+  loop over num array
+    if current num is already in new arr, return false
+    otherwise put current num in arr
+  after loop return true
+*/
+
+
+/*
   Set test data
 */
 
