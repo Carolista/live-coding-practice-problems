@@ -1,10 +1,28 @@
 /*
   Notes & clarifications
+
+  Write a function that takes string of alpha chars
+  Find the longest substring of identical characters (consecutive)
+  Return length of substring
+
+  May want to handle empty string or single character as an early return
 */
 
 
 /*
   Pseudocode
+
+  Create variable to store longest length (set to 1)
+  Create variable to track current count of length (set to 1)
+  If length of string is less than 2, return length
+  Loop through string, starting with index 1 
+    If char at i is the same as char at i-1
+      increase current count
+      if current count is greater than longest
+        set longest to current
+    Otherwise
+      Reset current to 1
+  Return longest length
 */
 
 

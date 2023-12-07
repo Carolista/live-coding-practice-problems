@@ -1,10 +1,29 @@
 /*
   Notes & clarifications
+
+  Get ticket if:
+  - More than 12 mph over on highway
+  - More than 7 mph over on regular road
+
+  Function should take string for limit, string for speed, and boolean for whether it's a highway or not
+
+  No return value - just print
+  "Pull over citizen" if ticket
+  "Phew! Close call" if not
+
+  Speed will always be higher than limit
 */
 
 
 /*
   Pseudocode
+
+  If it's a highway and the speed minus limit is greater than 12
+    print "Pull over, citizen"
+  If it's not a highway and the speed minus limit is greater than 7
+    print "Pull over citizen"
+  Otherwise
+    print "Phew! Close call"
 */
 
 

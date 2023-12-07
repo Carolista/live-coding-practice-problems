@@ -1,10 +1,32 @@
 /*
   Notes & clarifications
+
+  Write a function that takes a string
+  The string will be a phrase with spaces between words
+  Function should return numbers of words in the phrase
+
+  Empty string or single space possible
 */
 
 
 /*
   Pseudocode
+
+  Without string methods: 
+
+  Early return if length is 0
+  Create variable to track count of spaces
+  Loop through string
+    If character is space, increase count
+  If character count is same as string length
+    Return 0
+  Else
+    Return space count + 1
+
+  With string methods:
+
+  If length of trimmed string is 0, return 0
+  Otherwise split string on spaces and return length
 */
 
 

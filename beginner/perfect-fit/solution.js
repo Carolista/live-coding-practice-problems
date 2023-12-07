@@ -1,10 +1,26 @@
 /*
   Notes & clarifications
+
+  Write function that takes three numbers
+  Check to see if any two of the numbers add up to the third
+  Return true or false
+
+  No negative numbers
+  Doesn't matter what order the numbers are in
 */
 
 
 /*
   Pseudocode
+
+  if num 1 and num 2 add up to num 3
+    return true
+  if num 1 and num 3 add up to num 2
+    return true
+  if num 2 and num 3 add up to num 1
+    return true
+  else
+    return false
 */
 
 

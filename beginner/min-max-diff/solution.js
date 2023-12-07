@@ -1,10 +1,25 @@
 /*
   Notes & clarifications
+
+  Function - take array of integers
+  Find largest and smallest values
+  Return difference between the two
+
+  Can't assume smallest will be zero
 */
 
 
 /*
   Pseudocode
+
+  Create variables to store min and max
+    & initialize them to first num in array
+  Loop over array starting with index 1
+    if current number is greater than max
+      set new max
+    if current number is less than min
+      set new min
+  return max minus min
 */
 
 
