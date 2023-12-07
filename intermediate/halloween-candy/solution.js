@@ -1,10 +1,45 @@
 /*
-  Notes & clarifications
+  Notes & clarifications 
+
+  Write function to take 2 strings and 1 integer - weather, temp range, and average number of kids
+  Return amount of candy needed if 3 pieces given to each kid.
+
+  Halloween candy estimate depends on weather and temperature
+
+  Weather -
+  clear +10%
+  cloudy (none)
+  rain -25%
+  full moon +25%
+
+  Temps -
+  40s -5%
+  50s (none)
+  60s +5%
+  70s +20%
 */
 
 
 /*
   Pseudocode
+
+  Create variable to track changes to amount of kids
+
+  if weather clear
+    add 10% more kids
+  else if weather rainy
+    subtract 25% kids
+  else if weather is full moon
+    add 25% more kids
+
+  if temps in 40s
+    subtract 5% kids
+  if temps in 60s
+    add 5% more kids
+  if temps in 70s
+    add 20% more kids
+
+  return 3 times the adjusted amount of kids
 */
 
 
@@ -44,7 +79,7 @@ console.log(howMuchCandy("rainy", "70s", 180));
 
 
 /* 
-  Solution 2 with case statements
+  Solution 2 alt syntax with case statements
 */
 
 function howMuchCandy2(weather, tempRange, avgKids) {

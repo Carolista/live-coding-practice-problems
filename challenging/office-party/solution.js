@@ -1,10 +1,29 @@
 /*
   Notes & clarifications
+
+  Fun party:
+    - 3+ desserts AND 2+ snacks
+      OR
+    - cake AND fun music
+
+  Write function - takes array of objects, each with 3 keys:
+    - desserts (array of strings)
+    - snacks (array of strings)
+    - has music (boolean)
+  No return value, just print true or false
 */
 
 
 /*
   Pseudocode
+  
+  Loop through array of objects
+    Create variable for result
+    Check for cake & music first, set result true
+    Else check number of desserts and snacks
+    If enough, set result true
+    Else set result false
+    Print result
 */
 
 
@@ -68,6 +87,7 @@ function partiesAreFun(parties) {
   }
 }
 
+// For a given array of strings, check each string for a substring
 function hasSubstring(arr, substring) {
   for (let i=0; i < arr.length; i++) {
     if (arr[i].includes(substring)) {

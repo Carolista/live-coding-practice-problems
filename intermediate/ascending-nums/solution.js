@@ -1,10 +1,24 @@
 /*
   Notes & clarifications
+
+  Function should take string of numbers, separated by spaces
+  Check if numbers are in ascending order
+  Return boolean true or false
+
+  Always 2 or more numbers
+  Duplicate numbers are not considered ascending
+  All numbers are 0 and above
 */
 
 
 /*
   Pseudocode
+
+  Split string on spaces to create array of numbers
+  Loop over array starting with index 1
+    If num at i is <= num at i-1
+      return false
+  Return true
 */
 
 

@@ -1,10 +1,46 @@
 /*
   Notes & clarifications
+
+  Part 1
+  Write function, takes number and object
+  No return value, just print
+
+  Number parameter is a cost
+  Object will have keys for denominations and their values will be the number of bills for that denomination
+
+  Count up total money on hand
+  Print "Not enough money" or "Cash it is" depending on whether you can cover the cost
+
+  Part 2
+  Determine if you have exact change
+  Helper function(s)
+  If so, print something different instead
+
+  Might be useful to create an object with same keys for currency to store multiplier
 */
 
 
 /*
   Pseudocode
+
+  Part 1
+  Create variable to track total money on hand
+  Loop through object parameter
+    Use key to multiple amount by the multiplier for that denomination
+  If total is less than cost
+    Print "Not enough money"
+  Else 
+    Print "Cash it is!"
+
+  Part 2
+  Helper function (maybe split into two?)
+  Take in cost number and currency object
+  Loop through keys in currency object
+    While bills of that type are available AND the balance is still greater than 1 bill
+      reduce balance by 1 bill
+  Return boolean: balance equals 0
+
+  Update original function to print third phrase by checking for exact change before the other two conditions
 */
 
 

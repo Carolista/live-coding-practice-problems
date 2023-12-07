@@ -3,12 +3,11 @@
 #### Instructions to Interviewee
 You should begin with an array of objects, each containing two properties: the speed a train is traveling and the distance it will cover. 
 
-In `practice.js`, write a function that accepts the array of objects as input and returns the average time the trains take to reach their destinations. 
+Write a function that accepts the array of objects as input and returns the average time the trains take to reach their destinations. 
 
 ---
 #### Hints & Clarifications
 - time = distance / velocity
-- It could be useful to write a helper function just to handle the calculation of averaging numbers.
 
 ---
 #### Test Data
