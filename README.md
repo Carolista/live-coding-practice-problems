@@ -1,6 +1,8 @@
 # Live Coding Practice Problems
 #### by Carrie Jones
 
+> IMPORTANT! When you fork, make sure you _uncheck_ the box that says "main only" so that the `solution` branch will be included from the beginning
+
 [Navigating the Files](#navigating-the-practice-problem-files) |
 [Updating Your Forked Repo](#updating-your-forked-repository-with-my-changes) | 
 [Practicing Live Coding](#practicing-the-live-coding-process) |
